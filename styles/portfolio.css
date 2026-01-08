@@ -16,7 +16,10 @@
     color: chocolate;
 }
 header{
-    background-color: rgb(241, 220, 193);
+    background-color: rgb(246, 244, 242);
+    background: url(../images/developer.png) ,url(../images/header_bg.png), rgb(246, 244, 242);
+   background-repeat: no-repeat;
+   background-position: top left,bottom right;
     padding-top: 50px;
 
 }
@@ -49,5 +52,41 @@ nav .menu a{
     font-size: 20px;
     font-weight: bold;
     color: aliceblue;
+    cursor: pointer;
 
+}
+#banner{
+    margin: 47px 38px 0 230px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-contant {
+    max-width: 585px;
+}
+
+#banner .banner-contant h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #827f7f;
+    margin-bottom: 5px;
+}
+
+#banner .banner-contant h1 {
+    font-size: 85px;
+    font-weight: bold;
+    color: rgb(63, 60, 60);
+    margin-bottom: 20px;
+}
+
+#banner .banner-contant p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner.banner-img{
+    max-width: 585px;
+    vertical-align:middle;
 }
